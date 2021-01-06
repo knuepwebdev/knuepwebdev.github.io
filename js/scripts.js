@@ -35,6 +35,12 @@
         }
     });
 
+
+    $(".about a").click(function() {
+      $("html, body").animate({ scrollTop: $(document).height() }, "slow");
+      return false;
+    });    
+
     // Scroll to top
     $('#to-top').click(function() {
         $('html, body').animate({
