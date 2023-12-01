@@ -27,19 +27,19 @@
         </div>
         <ul id="menu" class="shadow">
             <li>
-                <a href="#about">About</a>
+                <a href="#about" class="grey">About</a>
             </li>
             <li>
-                <a href="#projects">Projects</a>
+                <a href="#projects" class="grey">Projects</a>
             </li>            
             <li>
-                <a href="#experience">Experience</a>
+                <a href="#experience" class="grey">Experience</a>
             </li>
             <li>
-                <a href="#education">Education</a>
+                <a href="#education" class="grey">Education</a>
             </li>
             <li>
-                <a href="#skills">Skills</a>
+                <a href="#skills" class="grey">Skills</a>
             </li>
         </ul>
     </header>
@@ -47,8 +47,7 @@
 
     <div id="lead">
         <div id="lead-content">
-            <h1>Michael Knueppel</h1>
-            <h2>Software Engineer</h2>
+            <img class="header-logo" src="images/mk_consulting_logo.jpg" alt="Knueppel Consulting Logo">
         </div>
         <!-- End #lead-content -->
 
@@ -69,7 +68,9 @@
                 <h2 class="heading">About</h2>
             </div>
             <div class="horizontal-padding white-background" class="left-aligned">
-                <p class="grey">I'm a Software Engineer with extensive experience in all aspects of software development. I have over 7 years of professional experience at both large companies and early-stage startups.</p>                                       
+                
+
+                <p class="grey">Software Engineering Consultant with extensive experience in all aspects of software development. We have over 7 years of professional experience at both large companies and early-stage startups.</p>                                       
 
                 <p class="grey">Most recently I worked for American Financing, a national mortgage lender. Prior to that I worked for Amazon as a member of the Ring Neighbors backend engineering team supporting the Neighbors by Ring iOS and Android apps.
                 </p>                     
@@ -82,9 +83,20 @@
         <div class="container">
             <div class="projects-list">
                 <div class="project shadow-large">
+                    <a class="project-link" href="https://www.advthree.com/" target="_blank">
+                        <div class="project-image">
+                            <img src="images/advthree.png" alt="ADV Three logo" />
+                        </div>
+                        <div class="project-info">
+                            <div class='project-name'>ADV3</div>
+                            <p class='project-description'>Marine services and sailboat rigging</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="project shadow-large">
                     <a class="project-link" href="https://www.americanfinancing.net/" target="_blank">
                         <div class="project-image">
-                            <img src="images/afc.png" />
+                            <img src="images/afc.png" alt="American Financing Logo" />
                         </div>
                         <div class="project-info">
                             <div class='project-name'>American Financing</div>
@@ -95,7 +107,7 @@
                 <div class="project shadow-large">
                     <a class="project-link" href="https://iqsonics.com/" target="_blank">
                         <div class="project-image">
-                            <img src="images/ss4kids.png" />
+                            <img src="images/ss4kids.png" alt="Sing and Speak 4 Kids Logo" />
                         </div>
                         <!-- End .project-image -->
                         <div class="project-info">
@@ -110,7 +122,7 @@
                 <div class="project shadow-large">
                     <a class="project-link" href="https://ring.com/neighbors" target="_blank">
                         <div class="project-image">
-                            <img src="images/ring_neighbors.png" />
+                            <img src="images/ring_neighbors.png" alt="Ring Neighbors Logo" />
                         </div>
                         <!-- End .project-image -->
                         <div class="project-info">
@@ -127,7 +139,7 @@
                 <div class="project shadow-large">
                     <a class="project-link" href="https://communityprograms.ring.com/" target="_blank">
                         <div class="project-image">
-                            <img src="images/cpp.png" />
+                            <img src="images/cpp.png" alt="Ring Community Programs Logo" />
                         </div>
                         <!-- End .project-image -->
                         <div class="project-info">
@@ -143,7 +155,7 @@
                 <div class="project shadow-large">
                     <a class="project-link" href="https://www.hallmarkecards.com/" target="_blank">  
                         <div class="project-image">
-                            <img src="images/hallmark_ecards.png" />
+                            <img src="images/hallmark_ecards.png" alt="Hallmark Cards Logo" />
                         </div>
                         <!-- End .project-image -->
                         <div class="project-info">
@@ -164,6 +176,13 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
+            <div data-date="Nov 2022 - Present">
+                <h3>Consultant</h3>
+                <h4>Software Engineer</h4>
+                <p>
+                    Web development consulting
+                </p>                
+            </div>
             <div data-date="Sep 2021 - Nov 2022">
                 <h3>American Financing</h3>
                 <h4>Software Engineer</h4>
@@ -227,9 +246,10 @@
             <li>HTML</li>
             <li>CSS</li>
             <li>SQL</li>
-            <li>Relational & NoSQL Databases</li>
+            <li>NoSQL</li>
             <li>Agile Development</li>
             <li>Rapid Prototyping</li>
+            <li>WordPress</li>
         </ul>
     </div>
     <!-- End #skills -->

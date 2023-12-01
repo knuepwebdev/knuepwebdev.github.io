@@ -356,6 +356,10 @@ footer {
     background: $background-alt;
 }
 
+.header-logo {
+    width: 38rem;
+}
+
 /*
     --------------------------
     ----- 4. Lead Styles -----
@@ -409,7 +413,7 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba($base-color-hover, 0.8);
+    background: #111;
     z-index: 1;
 }
 
@@ -430,7 +434,7 @@ footer {
         width: 35px;
         height: 35px;
         border-radius: 50%;
-        border: 3px solid lighten($base-color, 25%);
+        border: 3px solid #fff;
         text-align:center;
     }
 
